@@ -5,8 +5,8 @@ var userPattern = [];
 // Starting the game
 var started = false;
 var level = 0;
-$(document).on("keypress click", function() {
-
+$(document).on("keypress", function() {
+  
   if (!started) {
     $("#level-title").text("level" + level);
     newSequence();
@@ -41,7 +41,7 @@ function checkPattern (currentLvl) {
   else {
     playSound("wrong");
     $("body").addClass("game-over");
-    $("#level-title").text("Game Over, Press Any Key/Anywhere to Restart");
+    $("#level-title").text("Game Over, Press Any Key to Restart");
     
     setTimeout(() => {
       $("body").removeClass("game-over");
