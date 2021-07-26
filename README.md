@@ -12,6 +12,6 @@
 
 ⚫ This game is made by pure javascript and jQuery.
 
-⚫ It is a responsive website, user can access the game through mobile as well.
+⚫ It is a responsive website, but it has issues in mobile.
 
 ⚫ It contains some sound and animations as well.
