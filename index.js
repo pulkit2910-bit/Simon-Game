@@ -12,9 +12,6 @@ $(document).on("keypress click", function() {
     newSequence();
     started = true;
   }
-  else{
-    startOver();
-  }
 });
 
 // On clicking any btn
